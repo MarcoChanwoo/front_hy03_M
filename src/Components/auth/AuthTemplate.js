@@ -36,6 +36,7 @@ const WhiteBox = styled.div`
   border-radius: 2px;
 `;
 
+// children의 역할
 const AuthTemplate = ({ children }) => {
   return (
     <AuthTemplateBlock>
