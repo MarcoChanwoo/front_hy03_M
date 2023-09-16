@@ -17,9 +17,13 @@ const Wrapper = styled(Responsive)`
   align-items: center;
   justify-content: space-between;
   .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 800;
     letter-spacing: 2px;
+  }
+  .right {
+    font-size: 1.4rem;
+    font-style: italic;
   }
 `;
 
@@ -36,6 +40,7 @@ const NormalHeader = () => {
       <NormalHeaderBlock>
         <Wrapper>
           <div className="logo">(주)호윤상사</div>
+          <div className="right">안전한 건설산업의 미래를 함께합니다!</div>
         </Wrapper>
       </NormalHeaderBlock>
       <Spacer />
