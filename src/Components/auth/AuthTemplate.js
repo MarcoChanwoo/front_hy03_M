@@ -43,6 +43,7 @@ const AuthTemplate = ({ children }) => {
         <div className="logo-area">
           <Link to="/">(주)호윤상사</Link>
         </div>
+        {children}
       </WhiteBox>
     </AuthTemplateBlock>
   );
