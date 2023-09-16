@@ -23,7 +23,6 @@ const Total = styled.div`
 const HelloBox = styled.div`
   width: 100%;
   height: 100px;
-  background-color: #f2e0f7;
   font-size: 1.8rem;
   display: flex;
   align-items: center;
