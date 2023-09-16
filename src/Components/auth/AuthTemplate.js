@@ -26,6 +26,7 @@ const WhiteBox = styled.div`
     display: block;
     padding-bottom: 2rem;
     text-align: center;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 2px;
   }

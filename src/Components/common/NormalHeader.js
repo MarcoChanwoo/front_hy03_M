@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 import Responsive from './Responsive';
-import Button from './Button';
 
-const HeaderBlock = styled.div`
+const NormalHeaderBlock = styled.div`
   position: fixed;
   width: 100%;
   background: white;
@@ -22,10 +21,6 @@ const Wrapper = styled(Responsive)`
     font-weight: 800;
     letter-spacing: 2px;
   }
-  .right {
-    display: flex;
-    align-items: center;
-  }
 `;
 
 /**
@@ -35,20 +30,17 @@ const Spacer = styled.div`
   height: 4rem;
 `;
 
-const Header = () => {
+const NormalHeader = () => {
   return (
     <>
-      <HeaderBlock>
+      <NormalHeaderBlock>
         <Wrapper>
           <div className="logo">(주)호윤상사</div>
-          <div className="right">
-            <Button>들어가기</Button>
-          </div>
         </Wrapper>
-      </HeaderBlock>
+      </NormalHeaderBlock>
       <Spacer />
     </>
   );
 };
 
-export default Header;
+export default NormalHeader;
