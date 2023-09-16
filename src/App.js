@@ -1,17 +1,21 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import MainPage from "./pages/MainPage";
+import GuestPast from "./pages/GuestPage";
+import RequirePage from "./pages/RequirePage";
+import RegisterPage from "./pages/RegisterPage";
+import LoginPage from "./pages/LoginPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a className="App-link">
-          호윤상사를 찾아주셔서 감사합니다.
-          <br />
-          <button>들어가기</button>
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="/guest" element={<GuestPast />} />
+      <Route path="/require" element={<RequirePage />} />
+      <Route path="/register" element={<RegisterPage />} />
+      <Route path="/login" element={<LoginPage />} />
+    </Routes>
   );
-}
+};
 
 export default App;
