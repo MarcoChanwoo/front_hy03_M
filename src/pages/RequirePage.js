@@ -1,4 +1,10 @@
+import NormalHeader from '../Components/common/NormalHeader';
+
 const RequirePage = () => {
-  return <div>요청 페이지</div>;
+  return (
+    <>
+      <NormalHeader />
+    </>
+  );
 };
 export default RequirePage;
