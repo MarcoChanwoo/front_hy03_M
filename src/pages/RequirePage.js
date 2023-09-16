@@ -22,6 +22,9 @@ const TotalBox = styled.div`
 `;
 
 const RequirePage = () => {
+  const onClick = () => {
+    alert('접수되었습니다. 신속하게 확인 후 연락드리겠습니다.');
+  };
   return (
     <>
       <NormalHeader />
@@ -35,14 +38,16 @@ const RequirePage = () => {
         </div>
         <img className="img" src={img12} alt="img12" />
         <div className="mention">
-          궁금하신 내용을 적어주시면 확인 후 연락드리겠습니다
+          무엇이든 물어보세요! 성심성의껏 컨설팅해 드립니다
         </div>
         <textarea
           className="text"
           placeholder="회사명 / 담당자 성함 / 이메일 주소 / 현장 위치"
         ></textarea>
         <br />
-        <Button>상담 요청하기</Button>
+        <Button to="/" onClick={onClick}>
+          상담 요청하기
+        </Button>
       </TotalBox>
     </>
   );
