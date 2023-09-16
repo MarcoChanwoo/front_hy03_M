@@ -94,6 +94,8 @@ const AuthForm = ({ type }) => {
         ) : (
           <Link to="/login">로그인</Link>
         )}
+        <br />
+        <Link to="/guest">게스트로 입장</Link>
       </Footer>
     </AuthFormBlock>
   );
