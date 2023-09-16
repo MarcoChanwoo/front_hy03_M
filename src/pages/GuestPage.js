@@ -17,6 +17,7 @@ const Total = styled.div`
     padding-top: 50px;
     padding-bottom: 150px;
     font-size: 2rem;
+    background-color: #c8f8f8;
   }
 `;
 
