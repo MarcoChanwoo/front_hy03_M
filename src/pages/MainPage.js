@@ -1,4 +1,10 @@
+import Button from '../Components/common/Button';
+
 const MainPage = () => {
-  return <div>메인 페이지</div>;
+  return (
+    <div>
+      <Button>버튼</Button>
+    </div>
+  );
 };
 export default MainPage;
