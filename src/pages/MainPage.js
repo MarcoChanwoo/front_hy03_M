@@ -22,7 +22,7 @@ const MainPage = () => {
       <Header />
       <TotalBox>
         <div>
-          <div className="mention">저희 호윤상사 주식회사에서는</div>
+          <div className="mention">저희 호윤안전상사 주식회사에서는</div>
           <img className="img" src={img01} alt="img01" />
           <div className="mention">
             건설 현장의 새로운 안전 패러다임을 제시합니다
@@ -32,7 +32,7 @@ const MainPage = () => {
             근로자와 사업주 그리고 이용자 모두가 웃을 수 있도록
           </div>
           <img className="img" src={img12} alt="img12" />
-          <div className="mention">(주)호윤상사가 함께 하겠습니다.</div>
+          <div className="mention">(주)호윤안전상사가 함께합니다.</div>
         </div>
       </TotalBox>
     </>
