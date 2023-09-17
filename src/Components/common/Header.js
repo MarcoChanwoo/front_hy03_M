@@ -27,6 +27,9 @@ const Wrapper = styled(Responsive)`
     display: flex;
     align-items: center;
   }
+  .right_guest {
+    margin-left: 3px;
+  }
 `;
 
 /**
@@ -45,7 +48,10 @@ const Header = () => {
             (주)호윤안전상사
           </Link>
           <div className="right">
-            <Button to="/login">들어가기</Button>
+            <Button to="/login">로그인</Button>
+            <Button className="right_guest" to="/guest">
+              둘러보기
+            </Button>
           </div>
         </Wrapper>
       </HeaderBlock>

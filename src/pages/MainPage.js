@@ -3,6 +3,7 @@ import Header from '../Components/common/Header';
 import img01 from '../image/img01.png';
 import img12 from '../image/img12.png';
 import img06 from '../image/img06.png';
+import { Link } from '../../node_modules/react-router-dom/dist/index';
 
 const TotalBox = styled.div`
   text-align: center;
@@ -13,6 +14,12 @@ const TotalBox = styled.div`
   }
   .mention {
     padding: 50px;
+  }
+  .admin {
+    font-size: 1rem;
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 50px;
   }
 `;
 
@@ -33,6 +40,9 @@ const MainPage = () => {
           </div>
           <img className="img" src={img12} alt="img12" />
           <div className="mention">(주)호윤안전상사가 함께합니다.</div>
+        </div>
+        <div className="admin">
+          <Link to="/admin">Admin</Link>
         </div>
       </TotalBox>
     </>
