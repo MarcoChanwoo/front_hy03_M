@@ -23,7 +23,7 @@ const TotalBox = styled.div`
 
 const RequirePage = () => {
   const onClick = () => {
-    alert('접수되었습니다. 신속하게 확인 후 연락드리겠습니다.');
+    alert('완료되었습니다. 신속하게 확인 후 연락드리겠습니다.');
   };
   return (
     <>
