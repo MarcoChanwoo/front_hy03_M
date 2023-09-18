@@ -10,7 +10,8 @@ const AdminHeaderBlock = styled.div`
 
 const Wrapper = styled(Responsive)`
   height: 5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
   background: #E0F8F7;
   display: flex;
   align-items: center;      // 세로 정중앙
