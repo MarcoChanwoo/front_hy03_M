@@ -23,7 +23,7 @@ const AdminHeader = () => {
   return (
     <div>
       <AdminHeaderBlock />
-      <Wrapper>호윤안전상사주식회사 관리자 페이지</Wrapper>
+      <Wrapper>HYs안전상사주식회사 관리자 페이지</Wrapper>
     </div>
   );
 };

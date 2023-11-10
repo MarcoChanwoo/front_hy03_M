@@ -39,7 +39,7 @@ const NormalHeader = () => {
     <>
       <NormalHeaderBlock>
         <Wrapper>
-          <div className="logo">(주)호윤안전상사</div>
+          <div className="logo">(주)HY안전상사</div>
           <div className="right">안전한 건설산업의 미래를 함께합니다!</div>
         </Wrapper>
       </NormalHeaderBlock>

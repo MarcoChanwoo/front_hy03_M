@@ -43,7 +43,7 @@ const GuestPast = () => {
         <img className="img" src={img02} alt="img02" />
         <HelloBox>꼼꼼한 안전설계부터 실시간 확인까지</HelloBox>
         <img className="img" src={img03} alt="img03" />
-        <HelloBox>(주)호윤안전상사에서 함께 설계를 진행해 드립니다!</HelloBox>
+        <HelloBox>(주)HY안전상사에서 함께 설계를 진행해 드립니다!</HelloBox>
         <div className="footer">
           문의를 남겨주시면 함께 상담해 드립니다
           <br />

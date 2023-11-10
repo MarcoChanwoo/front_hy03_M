@@ -34,7 +34,7 @@ const RequirePage = () => {
         <div className="mention">근로자를 위한 완벽한 환경을 조성하는 것</div>
         <img className="img" src={img05} alt="img05" />
         <div className="mention">
-          그것이 저희 (주)호연안전상사의 마지막 목표입니다
+          그것이 저희 (주)HY안전상사의 마지막 목표입니다
         </div>
         <img className="img" src={img12} alt="img12" />
         <div className="mention">
